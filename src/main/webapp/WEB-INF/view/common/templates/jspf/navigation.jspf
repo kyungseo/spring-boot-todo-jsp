@@ -1,0 +1,37 @@
+<%@ page language="java" contentType="text/html;charset=UTF-8" pageEncoding="UTF-8" %>
+
+<%-- --------------------------------------------------------------------------
+     [KYUNGSEO.PoC] Todo App - Spring Boot and JSP Sample Project
+
+       @version v0.1.0
+       @link https://github.com/kyungseo/spring-boot-todo-jsp
+       Copyright (c) 2023 박경서 (Kyungseo.Park@gmail.com)
+       License Apache 2.0
+-------------------------------------------------------------------------- --%>
+
+<nav class="navbar navbar-expand navbar-dark bg-dark">
+
+  <a href="https://github.com/kyungseo" class="navbar-brand">TODO APP</a>
+
+  <div class="navbar-nav mr-auto">
+    <li class="nav-item active">
+      <a href="/" class="nav-link">
+        <font-awesome-icon icon="home" /> Home
+      </a>
+    </li>
+    <li class="nav-item">
+      <a href="/todos" class="nav-link">
+        <i class="fa fa-check-square" aria-hidden="true"></i> 할일 목록
+      </a>
+    </li>
+  </div>
+
+  <div class="navbar-nav ml-auto">
+    <li class="nav-item">
+      <a href="/logout" class="nav-link">
+        <font-awesome-icon icon="sign-out-alt" /> LogOut
+      </a>
+    </li>
+  </div>
+
+</nav>
